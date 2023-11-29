@@ -22,7 +22,7 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: 22
           script: |
-            cd back_hw3
+            cd ./back_hw3
             source ./venv/bin/activate
             git pull
             python manage.py migrate
